@@ -9,9 +9,9 @@ if [ "$type" != "image" ]; then
 fi
 
 # Server stuff goes here
-server="yousef@hydrogen.navalrp.co.uk:/srv/www/y96.pw/${type}s"
+server="user@server:/path/to/server/${type}s"
 temp="/tmp"
-url="http://y96.pw/${type}s"
+url="http://domain.tld/${type}s"
 imageEncoding=".png"
 videoEncoding=".webm"
 name=`cat /dev/urandom | tr -cd 'a-f0-9' | head -c 8`
