@@ -1,0 +1,2 @@
+"Conky" conky -q --window-id=$XSCREENSAVER_WINDOW \
+-c ~/.conkyrc-screensaver \n\
